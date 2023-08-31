@@ -1,7 +1,8 @@
+/*
 * {
     border: 1px solid red;
 }
-
+*/
 
 @font-face {
     font-family: 'cascadia';
@@ -80,7 +81,8 @@ body {
 
 @media (max-width: 844pt) {
     #footer {
-        bottom: -58.5%;
+        bottom: -56.5%;
+        height: 8%;
     }
 }
 @media (max-width: 390pt) {
@@ -120,6 +122,7 @@ iframe {
     overflow: hidden;
     width: 1920px;
     height: 1084px;
+    user-select: none;
 }
 
 @media (max-width: 2560px) {
@@ -232,5 +235,28 @@ iframe {
         left: 100px;
     }
 }
-
-
+@media (max-width: 844px) {
+    #overlay3 {
+        position: absolute;
+        z-index: 100;
+        width: 160px;
+        height: 90px;
+        top: 112%;
+        left: 35px;
+    }
+}
+@media (max-width: 390px) {
+    #overlay1 {
+        display: none;
+    }
+}
+@media (max-width: 390px) {
+    #overlay2 {
+        display: none;
+    }
+}
+@media (max-width: 390px) {
+    #overlay3 {
+        display: none;
+    }
+}

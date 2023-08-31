@@ -52,7 +52,7 @@ body {
 
 #logo {
     background-image: url(./AppExport/ArtAssetsForSite/StartMenu.png);
-    background-size: contain;
+    background-size: cover;
 }
 @media (max-width: 2560px) {
     #logo {
@@ -159,7 +159,7 @@ iframe {
     border: 10px solid white;
     border-radius: 10px;
     width: 1916px;
-    height: 1074px;
+    height: 1076px;
     transform-origin: center;
     pointer-events: none;
 }

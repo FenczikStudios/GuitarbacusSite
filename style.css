@@ -212,3 +212,25 @@ iframe {
 }
 
 
+@media (max-width: 844px) {
+    #overlay1 {
+        position: absolute;
+        z-index: 100;
+        width: 100px;
+        height: 235px;
+        top: 65%;
+        right: 30px;
+    }
+}
+@media (max-width: 844px) {
+    #overlay2 {
+        position: absolute;
+        z-index: 100;
+        width: 420px;
+        height: 100px;
+        top: 30%;
+        left: 100px;
+    }
+}
+
+

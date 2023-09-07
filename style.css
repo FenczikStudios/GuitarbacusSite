@@ -1,6 +1,5 @@
 
 
-
 @font-face {
     font-family: 'cascadia';
     src: url('./AppExport/ArtAssetsForSite/Fonts/CascadiaCode-2111.01/otf/static/CascadiaCode-Regular.otf') format('opentype'); /* Modern format */
@@ -69,24 +68,7 @@ body {
     }
 }
 
-#footer {
-    position: absolute;
-    width: 80%;
-    height: 15%;
-    bottom: 0%;
-}
 
-@media (max-width: 844pt) {
-    #footer {
-        bottom: -56.5%;
-        height: 8%;
-    }
-}
-@media (max-width: 390pt) {
-    #footer {
-        bottom: 0;
-    }
-}
 
 #left-box {
     position: absolute;
@@ -125,14 +107,14 @@ iframe {
 @media (max-width: 2560px) {
     iframe {
         transform-origin: center;
-        transform: scale(.55)
+        transform: scale(.66667)
     }
 }
 
-@media (max-width: 1480px) {
+@media (max-width: 1680px) {
     iframe {
         transform-origin: center;
-        transform: scale(45%);
+        transform: scale(50%);
     }
 }
 
@@ -162,12 +144,12 @@ iframe {
 }
 @media (max-width: 2560px) {
     #border {
-        transform: scale(.55)
+        transform: scale(.66667)
     }
 }
-@media (max-width: 1480px) {
+@media (max-width: 1680px) {
     #border {
-        transform: scale(45%);
+        transform: scale(50%);
     }
 }
 @media (max-width: 844px) {
@@ -255,5 +237,114 @@ iframe {
 @media (max-width: 390px) {
     #overlay3 {
         display: none;
+    }
+}
+
+
+#footer {
+    position: absolute;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 15%;
+    bottom: 0%;
+}
+
+@media (max-width: 844pt) {
+    #footer {
+        bottom: -56.5%;
+        height: 8%;
+    }
+}
+@media (max-width: 390pt) {
+    #footer {
+        bottom: -20%;
+        height: 30%;
+    }
+}
+
+#we-need-you-txt {
+    width: 30%;
+
+}
+@media (max-width: 844px) {
+    #we-need-you-txt {
+        display: none;
+    }
+}
+@media (max-width: 390px) {
+    #we-need-you-txt {
+        display: block;
+        position: relative;
+        width: 100%;
+        top: -40%;
+        left: 50%;
+    }
+}
+#icon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100px;
+    top: 50%;
+}
+@media (max-width: 844px) {
+    #icon-container {
+        display: none;
+    }
+}
+@media (max-width: 390px) {
+    #icon-container {
+        display: flex;
+        position: relative;
+        width: 100%;
+        left: -50%;
+        top: 0;
+    }
+}
+.icon {
+    margin: 8%;
+}
+@media (max-width: 844px) {
+    .icon {
+        display: none;
+    }
+}
+@media (max-width: 390px) {
+    .icon {
+        display: flex;
+        transform: scale(75%);
+        transform-origin: left;
+        margin: 0;
+    }
+}
+#patreon {
+    width: 140px;
+}
+#youtube {
+    width: 100px;
+}
+#tiktok {
+    width: 60px;
+}
+#coming-soon {
+    position: fixed;
+    transform: scale(75%);
+    top: 85%;
+    left: 55%;
+}
+@media (max-width: 844px) {
+    #coming-soon {
+        display: none;
+    }
+}
+@media (max-width: 390px) {
+    #coming-soon {
+        display: block;
+        position:absolute;
+        left: 10%;
+        top: 70%;
     }
 }

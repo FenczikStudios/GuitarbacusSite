@@ -1,6 +1,4 @@
-* {
-    border: 1px solid red;
-}
+
 
 @font-face {
     font-family: 'cascadia';
@@ -40,12 +38,12 @@ body {
 }
 @media (max-width: 844pt) {
     #header {
-        height: 30%;
+        height: 25%;
     }
 }
 @media (max-width: 390pt) {
     #header {
-        justify-content: center;
+        flex-direction: column;
     }
 }
 

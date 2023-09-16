@@ -1,12 +1,11 @@
 // Get references to the guide div and logo image
-const guideDiv = document.getElementById("guide");
+const blogDiv = document.getElementById("blog");
 const logoImg = document.getElementById("logo");
 const aboutDiv = document.getElementById("about")
 
 // event listener for guide element
-guideDiv.addEventListener("click", function() {
-    window.location.href = "guide.html";
-    console.log = "clicked"
+blogDiv.addEventListener("click", function() {
+    window.location.href = "blog.html";
 });
 
 // event listener for about element

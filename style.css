@@ -1,4 +1,6 @@
-
+* {
+    border: 1px red solid;
+}
 
 @font-face {
     font-family: 'cascadia';
@@ -69,11 +71,15 @@ body {
 .content {
     display: flex;
     position: relative;
-    width: 60%;
+    width: 80%;
     height: auto;
     align-items: center;
     justify-content: center;
 }
+#about-page {
+    height: 50%;
+}
+
 
 /*--------------------------------------------------------------*/
 
@@ -100,7 +106,7 @@ iframe {
 @media (max-width: 1680px) {
     iframe {
         transform-origin: center;
-        transform: scale(48.6%);
+        transform: scale(55%);
     }
 }
 

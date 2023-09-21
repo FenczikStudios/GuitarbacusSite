@@ -1,6 +1,8 @@
+/*
 * {
     border: 1px red solid;
 }
+*/
 
 @font-face {
     font-family: 'cascadia';
@@ -71,7 +73,7 @@ body {
 .content {
     display: flex;
     position: relative;
-    width: 80%;
+    width: 60%;
     height: auto;
     align-items: center;
     justify-content: center;

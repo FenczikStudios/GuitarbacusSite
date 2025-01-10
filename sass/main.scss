@@ -1,0 +1,28 @@
+//CUSTOM VARIABLES
+$primary: rgb(8, 130, 8);
+$light: #fbf5e5;
+
+
+// import the functions and variables
+@import "../node_modules/bootstrap/scss/_functions";
+@import "../node_modules/bootstrap/scss/_variables";
+
+@font-face {
+    font-family: 'code';
+    src: url('/Assets/fonts/Cascadia.ttf') format('truetype');
+}
+$font-family-sans-serif: 'code';
+$font-family-monospace: 'COOPBL';
+
+$custom-theme-colors: (
+    "altlight": #f2ebfa,
+    "altdark": #522192,
+    "bgcolor": #ccc9b2,
+    "guide1": #02939e,
+    "guide2": #0fadb5
+);
+
+$theme-colors: map-merge($custom-theme-colors, $theme-colors);
+
+//import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';

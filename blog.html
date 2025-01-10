@@ -3,42 +3,109 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Link to your CSS file -->
-    <link rel="stylesheet" type="text/css" href="./style.css">
+    <link rel="stylesheet" href="/css/main.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="./style.css">
 
     <!--Link to Google Adsense-->
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7461383361678878"
     crossorigin="anonymous"></script>
-    <title>Guitarbacus Blog</title>
-    
+    <title>Guitarbacus</title>
 </head>
 <body>
-    <div id = "header">
-        <img id = "logo" src="./AppExport/ArtAssetsForSite/Logo.png"></img>
-        <div id="menu-container">
-        <div class="menu" id="about">About</div>
-        <div class="menu">|</div>
-        <div class="menu" id="blog">Blog</div>
+   
+    
+<!--NAVBAR-->   
+
+<nav class="navbar navbar-expand-md navbar-altlight bg-bgcolor">
+    <div class="container-xxl">
+        <a href="./index.html" class="navbar-brand">
+            <img src="./Assets/icons/Guitarbacus Logo.png" alt="" style="height: 100px; ">
+        </a>
+        <!--toggle mobile nav-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+        data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false"
+        aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--NAVBAR LINKS-->
+
+        <div class="collapse navbar-collapse justify-content-end align-center pe-4" id="main-nav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="./guide.html" class="nav-link">Guides</a>
+                </li>
+                <li class="nav-item">
+                    <a href="" class="nav-link">|</a>
+                </li>
+                <li class="nav-item">
+                    <a href="./blog.html" class="nav-link">Videos</a>
+                </li>
+
+
+            </ul>
+        </div>
+
+
+    </div>   
+</nav>
+    
+<!--END NAVBAR--> 
+
+
+<!--INTRO SECTION-->
+
+<section id="intro" class="py-5 bg-bgcolor">
+
+    <div class="container-lg">
+        <div class="row justify-content-center align-items-center p-5">
+            <div class="col-12 col-md-9 col-lg-12 text-center" >
+                <h1>COMING SOON!</h1>
+            </div>
         </div>
     </div>
-    <div id="blog-header"> <h1>Blog</h1></div>
-    <div id="blog-content">
-        <div id="blog1"><h1>Blog1</h1> <p>Blog Goes Here</p></div>
-        <div id="blog1"><h1>Blog2</h1> <p>Blog Goes Here</p></div>
 
-    </div>  
-    <div id = "footer">
-        <img id="we-need-you-txt" src="./AppExport/ArtAssetsForSite/WeNeedYoursupport.png"></img>
-        <div id="icon-container">
-            <img id="youtube" class="icon" src="./AppExport/ArtAssetsForSite/IconsPhotosEtc/youtubeIcon.svg" width="80px"></img>
-            <img id="patreon" class="icon" src="./AppExport/ArtAssetsForSite/IconsPhotosEtc/Patreon.svg" width="200px"></img>
-            <img id="tiktok" class="icon" src="./AppExport/ArtAssetsForSite/IconsPhotosEtc/tiktok.svg" width="60px"></img>
+</section>
+
+<!--END INTRO SECTION-->
+
+
+<!--FOOTER-->
+
+<section id="footer" class="py-5 bg-bgcolor">
+    <div class="container-lg mt-4">
+        <div class="row justify-content-center text-center">
+            <div class="col-3 col-lg-2 me-4 me-sm-0">
+                <a href="./index.html" class="text-white">Home</a>
+            </div>
+            <div class="col-3 col-lg-2 me-2 me-sm-0">
+                <a href="./guide.html" class="text-white">Guides</a>
+            </div>
+            <div class="col-4 col-lg-3">
+                <a href="https://www.fenczikstudios.com/" class="text-white">FenczikStudios.com</a>
+            </div>
         </div>
-        <img id="coming-soon" src="./AppExport/ArtAssetsForSite/ComingSoon.png">
     </div>
+    <div class="row mt-3">
+        <p class="text-white text-end text-center">Guitarbacus@gmail.com • <i class="bi bi-youtube"></i> @Guitarbacus</p>
+    </div>
+    <div class="container-lg">
+        <div class="row mt-5">
+            <small class="text-white text-end pt-2">Website designed by Fenczik Studios</small>
+        </div>
+    </div>
+</section>
 
-    <!-- Link to your JS file -->
+<!--END FOOTER-->
+
+
+
+
+
+
+<!--PAGE END-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <script src="./script.js"></script>
 </body>
 </html>

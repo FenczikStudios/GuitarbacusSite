@@ -1,20 +1,10 @@
-// Get references to the guide div and logo image
-const blogDiv = document.getElementById("blog");
-const logoImg = document.getElementById("logo");
-const aboutDiv = document.getElementById("about")
 
-// event listener for guide element
-blogDiv.addEventListener("click", function() {
-    window.location.href = "blog.html";
+
+//tooltip code
+
+const tooltips = document.querySelectorAll('.tt');
+
+tooltips.forEach(t => {
+    new bootstrap.Tooltip(t);
+
 });
-
-// event listener for about element
-aboutDiv.addEventListener("click", function() {
-    window.location.href = "about.html";
-});
-
-// event listener for logo
-logoImg.addEventListener("click", function() {
-    window.location.href = "index.html";
-});
-

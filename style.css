@@ -16,11 +16,10 @@ body {
 
 
 #iframe-container {
+    aspect-ratio: 16 / 9;
     position: relative;
-    padding-bottom: 55.75%; /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */ 
-    border: 5px white solid;
+    outline: 5px white solid;
     border-radius: 7px;
-
 }
 
 iframe {
